@@ -57,11 +57,21 @@
         right: 45px;
     }   
 
-
+    .sez {
+        position: relative;
+    }   
 
     .article {
         width: 100vw;
         height: 100vh;
+    }   
+
+    .artcentr {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
     }   
 
     .article1 {
@@ -77,3 +87,15 @@
         background-color: yellow;
     }   
 
+    .title {
+        text-align: center;
+        font-size: 40px;
+    }   
+
+    .titleyl {
+        color: yellow;
+    }   
+
+    .titlegr {
+        color: green;
+    }   
