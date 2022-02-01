@@ -4,6 +4,60 @@
         margin:0px;
         padding:0px;
     }
+    
+    main {
+        font-family: 'Nunito', sans-serif;
+        overflow: hidden;
+    }   
+
+    article {
+        position:relative
+    }   
+
+    ul  {
+        list-style-type: none;
+    }   
+
+    .navbar {
+        display: inline-block;
+        position: fixed;
+        width: 100vw;
+        height: 10vh;
+        background-color: rgba(0,0,0,0.0);
+        z-index: 1;
+    } 
+    
+    .button {
+        text-align: center;
+        padding: 17px;
+        text-decoration: none;
+        position: absolute;
+        border-radius: 50%;
+        color: black;
+        background-color: white;
+        font-size: x-large;
+        font-weight: bold;
+        height: 60px;
+        width: 60px;
+        z-index: 2;
+    }   
+
+    .pos1 {
+        top: 15px ;
+        right: 195px;
+    }   
+
+    .pos2 {
+        top: 15px ;
+        right: 120px;
+    }   
+
+    .pos3{
+        top: 15px ;
+        right: 45px;
+    }   
+
+
 
     .article {
         width: 100vw;
@@ -23,4 +77,3 @@
         background-color: yellow;
     }   
 
-    
