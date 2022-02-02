@@ -7,7 +7,8 @@
     
     main {
         font-family: 'Nunito', sans-serif;
-        overflow: hidden;
+        overflow-x: hidden;
+        overflow-x: hidden;
     }   
 
     ul  {
@@ -15,7 +16,6 @@
     }   
 
     .navbar {
-        display: inline-block;
         position: fixed;
         width: 100vw;
         height: 10vh;
@@ -23,9 +23,10 @@
         z-index: 1;
     } 
     
-    .button {
+    nav li a {
         text-align: center;
-        padding: 17px;
+        line-height: 60px;
+        vertical-align:middle ;
         text-decoration: none;
         position: absolute;
         border-radius: 50%;
